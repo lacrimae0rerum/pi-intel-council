@@ -1,0 +1,11 @@
+{
+  "name": "council-of-intel",
+  "version": "0.2.0",
+  "description": "One-shot SATs and intelligence council deliberation for Pi",
+  "type": "module",
+  "keywords": ["pi-package", "intelligence", "structured-analysis"],
+  "files": ["index.ts", "lib/", "personalities/", "prompts/"],
+  "pi": { "extensions": ["index.ts"], "prompts": ["prompts"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*", "@earendil-works/pi-ai": "*", "typebox": "*" },
+  "engines": { "node": ">=22.19.0" }
+}
